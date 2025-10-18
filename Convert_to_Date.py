@@ -18,7 +18,6 @@ print("Type of datetime_object:", type(datetime_object))
 import datetime
 now = datetime.datetime.now()
 print(now)
-
 # Format the datetime object into a string
 formatted_date = now.strftime("%Y-%m-%d %H:%M:%S")
 
@@ -32,6 +31,7 @@ date_time=parser.parse("Oct 13 1997 7:15 AM")
 print(date_time)
 
 print(type(date_time))
+
 
 
 
