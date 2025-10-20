@@ -14,7 +14,6 @@ for char in a:
 print(count)
 
 # Using list and dictionary comprehension. 
-
 a="Harry Potter and the Goblet of Fire" 
 vowels="aeiou"
 a=a.casefold()
@@ -24,6 +23,7 @@ count={key:sum([1 for char in a if char == key]) for key in vowels} # for loop c
 
 
 print(count)
+
 
 
 
