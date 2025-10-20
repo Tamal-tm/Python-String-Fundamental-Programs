@@ -11,6 +11,7 @@ for char in a:
     if char in count:
         count[char] +=1
         
+
 print(count)
 
 # Using list and dictionary comprehension. 
@@ -24,4 +25,5 @@ count={key:sum([1 for char in a if char == key]) for key in vowels} # for loop c
 
 
 print(count)
+
 
