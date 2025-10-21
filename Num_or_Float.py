@@ -1,5 +1,4 @@
 num=input("Enter something here: ")
-
 def float_check(num):
     try:
         float(num)
@@ -9,4 +8,5 @@ def float_check(num):
     
 
 print(float_check(num))
+
 
