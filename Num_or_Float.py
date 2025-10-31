@@ -6,9 +6,11 @@ def float_check(num):
         return True
     except:
         return False
+        
     
 
 print(float_check(num))
+
 
 
 
